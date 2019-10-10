@@ -21,7 +21,7 @@
     <span></span>
 </div>
 ```
-## 按钮默认值文字居中
+## 3、按钮默认值文字居中
 ```.base .btn {
     height: 22px;
     width: 50px;
@@ -36,4 +36,21 @@
 }
 <div class="base">
     <div class="btn">进行中</div>
-</div>```
+</div>
+```
+## 4、改变滚动条样式
+```.card-block {
+      height: 250px;
+      overflow: auto;
+      &::-webkit-scrollbar {
+        width: 5px;
+      }
+      &::-webkit-scrollbar-track {
+        background-color: #f0f0f0;
+      }
+      &::-webkit-scrollbar-thumb {
+        border-radius: 2px;
+        background-color: #00A1FF;
+      }
+    }
+ ```
